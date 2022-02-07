@@ -2,7 +2,7 @@
 
 __Steps__
 
-• Clone this github repository (https://github.com/InviBull/DiscordBetter.git). 
+• Clone this [repository](https://github.com/InviBull/DiscordBetter.git). 
 
 • Open your browser -> Go to Extensions -> Enable Developer Mode -> Load Unpacked -> Add the path where you have downloaded the folder. 
 
