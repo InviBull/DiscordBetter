@@ -1,5 +1,5 @@
 const docObserver = new MutationObserver(() => {
-    const blockedMessages = document.body.getElementsByClassName("blockedSystemMessage-3FmE9n container-x059i8 cozy-S5wsfF")
+    const blockedMessages = document.querySelectorAll('[class^="blockedSystemMessage-"]');
     if (blockedMessages) {
         Array.from(blockedMessages).forEach(element => {
             element.parentElement.parentElement.style.display = 'none';
